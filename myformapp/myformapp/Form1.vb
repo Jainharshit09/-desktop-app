@@ -8,12 +8,9 @@
         textBox.Width = 578
         textBox.Location = New Point((Me.ClientSize.Width - textBox.Width) / 2, 10)
         textBox.Anchor = AnchorStyles.None
-        textBox.Font = New Font("Arial", 17, FontStyle.Bold) ' Adjust the font size and style as needed
+        textBox.Font = New Font("Arial", 17, FontStyle.Bold)
 
         Me.Controls.Add(textBox)
-
-
-        ' Center text horizontally and vertically within the textbox
         textBox.TextAlign = HorizontalAlignment.Center
         textBox.Multiline = True
         textBox.BorderStyle = BorderStyle.None

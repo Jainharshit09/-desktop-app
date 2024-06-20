@@ -7,8 +7,6 @@ Public Class ViewSubmissionsForm
 
     Private Async Sub ViewSubmissionsForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         submissions = Await GetSubmissions()
-
-        ' Create and position controls dynamically or use designer to add controls
         Dim textBox As New TextBox()
         textBox.Text = "Harshit Jain, Slidely Task 2 - View Submissions"
         textBox.TextAlign = HorizontalAlignment.Center
@@ -18,8 +16,6 @@ Public Class ViewSubmissionsForm
         textBox.Width = 578
         textBox.Location = New Point((Me.ClientSize.Width - textBox.Width) / 2, 10)
         Me.Controls.Add(textBox)
-
-        ' Add other controls similarly
         CreateLabelAndTextBox("Name", 60)
         CreateLabelAndTextBox("Email", 110)
         CreateLabelAndTextBox("Phone Num", 160)
@@ -42,8 +38,6 @@ Public Class ViewSubmissionsForm
         btnNxt.Location = New Point(480, 370)
         AddHandler btnNxt.Click, AddressOf Me.BtnNxt_Click
         Me.Controls.Add(btnNxt)
-
-        ' Load the first submission if available
         If submissions.Count > 0 Then
             LoadSubmission(currentIndex)
         Else
@@ -68,7 +62,6 @@ Public Class ViewSubmissionsForm
     Private Sub LoadSubmission(index As Integer)
         If index >= 0 AndAlso index < submissions.Count Then
             Dim submission = submissions(index)
-            ' Adjust control names as per your actual TextBox names
             Me.Controls("txtName").Text = submission.Name
             Me.Controls("txtEmail").Text = submission.Email
             Me.Controls("txtPhoneNum").Text = submission.phone
