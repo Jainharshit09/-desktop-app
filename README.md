@@ -1,4 +1,4 @@
-![View submission](https://github.com/Jainharshit09/-desktop-app/assets/114314853/e3806b4d-6c40-40cb-9745-b7fee59de71d)# Desktop Form Application
+# Desktop Form Application
 
 This repository contains the frontend implementation of a desktop form application built for Slidely Task 2.
 
