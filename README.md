@@ -1,4 +1,4 @@
-# Desktop Form Application
+![View submission](https://github.com/Jainharshit09/-desktop-app/assets/114314853/e3806b4d-6c40-40cb-9745-b7fee59de71d)# Desktop Form Application
 
 This repository contains the frontend implementation of a desktop form application built for Slidely Task 2.
 
@@ -66,6 +66,13 @@ This desktop application allows users to create new submissions and view existin
 ### Backend Setup
 
 To fully use this application, you need to set up the backend API. Follow the instructions in the [backend repository](https://github.com/Jainharshit09/submission-backend) to clone, install, and run the backend server.
+
+### WORKING
+![slidely task2](https://github.com/Jainharshit09/-desktop-app/assets/114314853/a5c246ac-ef7a-420b-ae4f-b52414bff71c)
+![View submission](https://github.com/Jainharshit09/-desktop-app/assets/114314853/12311185-1e3c-4658-a77a-a9bb6cfb2a09)
+![create form](https://github.com/Jainharshit09/-desktop-app/assets/114314853/b5d9db5c-c884-4181-b9a8-4ca3307ea64c)
+
+
 
 ### Known Issues
 
